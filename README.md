@@ -15,11 +15,11 @@ Notre plateforme vise à soutenir les étudiants de tous niveaux en offrant un a
 - Intégration de fonctionnalités de recherche avancée pour les exercices.
 
 ## Auteurs
-- [Tutur33](lien_vers_profil)
-- [Panda Guerrier](lien_vers_profil)
-- [FireLanden]
-- [GOGO]
-- [dinis-gdf]
+- [Tutur33](https://github.com/Tutur33)
+- [Panda Guerrier](https://github.com/PandaGuerrier)
+- FireLanden
+- GOGO]
+- dinis-gdf
 
 ## Licence
-Ce projet est sous licence [Apache-2.0]. Consultez le fichier `LICENSE` pour plus de détails.
+Ce projet est sous licence [Apache-2.0](LICENCE). Consultez le fichier `LICENSE` pour plus de détails.
