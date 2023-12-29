@@ -1,10 +1,27 @@
 @layout('layouts/main')
-@set('title', 'Arthur - Portfolio')
+@set('title', 'BrainyBoost')
 
 @section('body')
 
-<h1 class="text-3xl font-bold underline">
-   Hello world!
-</h1>
+<!-- 
+Page d'Accueil (Home Page)
+La page d'accueil présente le site avec :
+   Bannière ou Header : Logo, nom du site, image représentative.
+   Section de Présentation : Points forts, témoignages, statistiques.
+   Menu de Navigation : Accès aux sections comme exercices, cours, fiches.
+
+le style avec tailwindcss
+-->
+<div class="flex justify-center items-center h-screen bg-cover bg-center" style="background-image: url('https://img.freepik.com/photos-premium/freelancer-est-assis-table-travaille-ordinateur-portable-beau-paysage-naturel-plein-air-montagnes_77829-10879.jpg');">
+   <div class="flex flex-col items-center justify-center bg-gray-300 bg-opacity-80 p-10 rounded-lg">
+      <h1 class="text-6xl font-bold text-blue-500">BrainyBoost</h1>
+      <h2 class="text-2xl font-bold text-blue-500">Le site pour booster ton cerveau !</h2>
+      <div class="flex flex-row items-center justify-center">
+         <a href="/exercices" class="px-4 py-2 m-2 text-lg font-bold text-white bg-blue-500 rounded hover:bg-blue-700">Exercices</a>
+         <a href="/cours" class="px-4 py-2 m-2 text-lg font-bold text-white bg-blue-500 rounded hover:bg-blue-700">Cours</a>
+         <a href="/fiches" class="px-4 py-2 m-2 text-lg font-bold text-white bg-blue-500 rounded hover:bg-blue-700">Fiches</a>
+      </div>
+   </div>
+</div>
 
 @end
