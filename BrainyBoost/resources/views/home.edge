@@ -3,24 +3,32 @@
 
 @section('body')
 
-<!-- 
-Page d'Accueil (Home Page)
-La page d'accueil présente le site avec :
-   Bannière ou Header : Logo, nom du site, image représentative.
-   Section de Présentation : Points forts, témoignages, statistiques.
-   Menu de Navigation : Accès aux sections comme exercices, cours, fiches.
-
-le style avec tailwindcss
--->
-<div class="flex justify-center items-center h-screen bg-cover bg-center" style="background-image: url('https://img.freepik.com/photos-premium/freelancer-est-assis-table-travaille-ordinateur-portable-beau-paysage-naturel-plein-air-montagnes_77829-10879.jpg');">
-   <div class="flex flex-col items-center justify-center bg-gray-300 bg-opacity-80 p-10 rounded-lg">
-      <h1 class="text-6xl font-bold text-blue-500">BrainyBoost</h1>
-      <h2 class="text-2xl font-bold text-blue-500">Le site pour booster ton cerveau !</h2>
-      <div class="flex flex-row items-center justify-center">
-         <a href="/exercices" class="px-4 py-2 m-2 text-lg font-bold text-white bg-blue-500 rounded hover:bg-blue-700">Exercices</a>
-         <a href="/cours" class="px-4 py-2 m-2 text-lg font-bold text-white bg-blue-500 rounded hover:bg-blue-700">Cours</a>
-         <a href="/fiches" class="px-4 py-2 m-2 text-lg font-bold text-white bg-blue-500 rounded hover:bg-blue-700">Fiches</a>
+<div class="flex items-center w-screen h-20 border-b border-slate-500 px-48 fixed justify-between bg-gray-900">
+   <div class="flex items-center">
+      <div class="flex items-center mr-9">
+         <img src="logo.png" alt="" class="mr-3">
+         <p class="font-semibold">BRAINYBOOST</p>
       </div>
+      <a href="#" class="mr-7 font-semibold">Accueil</a>
+      <a href="#" class="mr-7 font-semibold">Corrigés</a>
+      <a href="#" class="font-semibold">FAQ</a>
+   </div>
+   <div class="flex">
+      <a href="#" class="px-6 py-2 rounded-md font-semibold">Inscription</a>
+      <a href="#" class="px-6 py-2 bg-indigo-500 rounded-md font-semibold">Connexion</a>
+   </div>
+</div>
+<div class="flex mx-48 h-screen items-center justify-between">
+   <div>
+      <h1 class="text-5xl font-semibold mb-3">BrainyBoost</h1>
+      <h2 class="text-xl font-semibold"><span class="text-indigo-500">La plateforme</span> pour les corrigés des exercices !</h2>
+      <div class="mt-10">
+         <a href="#" class="px-6 py-2 bg-indigo-500 rounded-md">Connexion</a>
+         <a href="#" class="px-6 py-2 rounded-md">FAQ</a>
+      </div>
+   </div>
+   <div>
+      <img src="img.png" alt="">
    </div>
 </div>
 
