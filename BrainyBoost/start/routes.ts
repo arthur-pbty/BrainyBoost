@@ -22,4 +22,6 @@ import Route from '@ioc:Adonis/Core/Route'
 
 Route.get('/', async ({ view }) => {
   return view.render('home')
-})
+}).as('home')
+Route.get('/auth/login', 'AuthController.login').as('login')
+Route.get('/auth/signup', 'AuthController.signup').as('signup')
